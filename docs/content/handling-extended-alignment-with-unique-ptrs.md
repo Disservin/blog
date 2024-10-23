@@ -169,7 +169,7 @@ not having to rely on implementation defined behavior of `new`
 
 Using `std::enable_if_t` allows our solution to work with both arrays and non-arrays, making it more general and flexible.
 
-View the full code on [godbolt](https://godbolt.org/z/4M68W3M6v)
+View the full code on [godbolt](https://godbolt.org/z/z894rMsTW)
 
 ```c++
 // [!code focus:1]
