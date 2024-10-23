@@ -17,10 +17,9 @@
       </a>
     </div>
   </header>
-  <main class="flex flex-col items-center w-full text-white">
-    <div
-      class="max-w-4xl w-full px-8 custom-scrollbar overflow-y-auto height text-wrap"
-    >
+
+  <main class="flex flex-col items-center w-full text-white overflow-y-auto">
+    <div class="max-w-4xl w-full px-8 custom-scrollbar height text-wrap">
       <NotFound v-if="page.isNotFound" />
       <Home v-else-if="frontmatter.home" />
       <template v-else>
